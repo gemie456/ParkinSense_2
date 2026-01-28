@@ -1,6 +1,6 @@
-import { View, Text, Image, Pressable, ScrollView} from "react-native";
 import Slider from "@react-native-community/slider";
 import { useState } from "react";
+import { Image, Pressable, ScrollView, Text, View } from "react-native";
 import SensorStatus from "../components/SensorStatusCard";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
     <ScrollView className="flex-1 bg-white p-10">
       <Text className="text-4xl text-left font-semibold">Good Afternoon</Text>
       <Text className="text-4xl text-left font-black mb-7">Kermit!</Text>
-
+hhh
       <SensorStatus isConnected={true} batteryPct={10}/>
 
       <View className="bg-gray-100 rounded-xl p-4 mb-6">
